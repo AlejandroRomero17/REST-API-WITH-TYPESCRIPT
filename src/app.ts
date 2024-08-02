@@ -6,5 +6,5 @@ const port = config.get<number>('port');
 const app = express();
 
 app.listen(port, () => {
-  console.log("App listening on port " + port);
+  console.log("App listening on port  " + port + " :)");
 })
